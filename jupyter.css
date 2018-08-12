@@ -532,3 +532,16 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: var(--atom-one-dark-mo
     padding-left: var(--jp-code-padding);
     padding-right: var(--jp-code-padding);
 }
+
+.CodeMirror-linenumber {
+    color: var(--atom-one-dark-gray);
+}
+
+.cm-s-zenburn {
+    background-color: var(--atom-one-dark-bg);
+    color: var(--atom-one-dark-fg);
+}
+
+.cm-s-zenburn .CodeMirror-gutters {
+    background: var(--atom-one-dark-bg) !important;
+}
