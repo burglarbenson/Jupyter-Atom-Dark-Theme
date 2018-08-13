@@ -524,6 +524,11 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: var(--atom-one-dark-mo
     border-bottom: 1px solid var(--atom-one-dark-fg);
 }
 
+/* Markdown inline code */
+.jp-RenderedHTMLCommon code {
+    background-color: var(--atom-one-dark-gray);
+    padding: 1px 3px;
+}
 
 .jp-MarkdownOutput {
     flex: 1 1 auto;
@@ -534,7 +539,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: var(--atom-one-dark-mo
 }
 
 .CodeMirror-linenumber {
-    color: var(--atom-one-dark-gray);
+    color: var(--atom-one-dark-silver);
 }
 
 .cm-s-zenburn {
