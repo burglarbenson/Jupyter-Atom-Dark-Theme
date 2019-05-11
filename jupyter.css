@@ -1,5 +1,3 @@
-/* i really want this to be global */
-
 /*-----------------------------------------------------------------------------
 | Copyright (c) Jupyter Development Team.
 | Distributed under the terms of the Modified BSD License.
@@ -401,7 +399,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   padding: 0 3px 0 5px;
   min-width: 20px;
   text-align: right;
-  color: var(--atom-one-dark-gray);
+  color: var(--atom-one-dark-mono-1);
   white-space: nowrap;
 }
 
@@ -536,10 +534,6 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: var(--atom-one-dark-mo
     margin-bottom: 0;
     padding-left: var(--jp-code-padding);
     padding-right: var(--jp-code-padding);
-}
-
-.CodeMirror-linenumber {
-    color: var(--atom-one-dark-silver);
 }
 
 .cm-s-zenburn {
